@@ -101,7 +101,6 @@ nav a{
 .banner-description{
     font-size: 22px;
     color: gray;
-    /* text-shadow:  gray; */
 
 }
 
@@ -132,7 +131,6 @@ span{
     width: 1140px;
     display: grid;
     grid-template-columns: auto;
-    /* margin: auto; */
     text-align: center;
     margin-top: 50px;
     padding-top: 50px;
@@ -160,7 +158,6 @@ span{
     width: 270px;
     height: 484px;
     display: grid;
-    /* row-gap: 10px; */
 }
 
 .card-img{
@@ -188,7 +185,6 @@ span{
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
-    /* gap: 60px; */
 }
 
 .lover-img{
@@ -209,10 +205,7 @@ span{
 }
 
 ul li {
-    /* width: 540px; */
-    /* height: 108px; */
     margin-top: 20px;
-    /* column-gap: 20px; */
 }
 
 
@@ -226,8 +219,6 @@ ul li {
 /* Deal section */
 
 .deal-section{
-    /* width: 1140px; */
-    /* margin: auto; */
     margin-top: 50px;
     
 }
@@ -280,6 +271,41 @@ ul li {
     border-radius: 8px;
 }
 
+/* join section */
+
+.join-section{
+    width: 100%;
+    height: 533px;
+    background-image: url('/assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.join-content{
+    width: 830px;
+    text-align: center;
+    
+}
+
+input{
+    width: 644px;
+    height: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+
+.join-btn{
+    width: 186px;
+    height: 50px;
+    margin-top: 20px;
+}
+
 
 @media screen  and (max-width: 480px) {
 
@@ -312,7 +338,6 @@ ul li {
 .banner-description{
     font-size: 14px;
     color: gray;
-    /* text-shadow:  gray; */
 }
 
 .banner-text{
@@ -342,7 +367,6 @@ ul li {
 .plants-content{
     width: 336px;
     margin: auto;
-    /* padding: 10px; */
 }
 
 br{
@@ -412,10 +436,6 @@ ul li {
     margin-top: 100px;
 }
 
-.deal-content{
-    /* width: 336px; */
-}
-
 .deal-title{
     font-size: 24px;
 }
@@ -430,11 +450,7 @@ ul li {
 
 .off-section{
     padding: 0px 10px;
-    /* margin: auto; */
     width: 393px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .off-content{
@@ -455,6 +471,33 @@ ul li {
     width: 361px;
     height: 184px;    
 }
+
+/* join section */
+
+.join-section{
+    width: 393px;
+    height: 275px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.join-content{
+    width: 321px;
+}
+
+.join-heading{
+    font-size: 20px;
+}
+
+input{
+    width: 218px;
+}
+
+.join-btn{
+    width: 103px;
+}
+
+
     
 }
 
