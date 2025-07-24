@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F5F8FF;
+}
+
+.noto-serif-bold {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-serif-bold {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.inter-semi-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+header{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.header-container{
+   
+}
+
+.header-content{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img{
+
+}
+
+nav a{
+    margin-left: 48px;
+    color: #8987A1;
+    font-size: 16px;
+}
+
+.active{
+    color: black;
+}
+
+.banner-content{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 180px;
+    justify-content: center;
+
+}
+
+.banner-heading{
+    font-size: 65px;
+    color: #000000;
+}
+
+.banner-description{
+    font-size: 22px;
+    color: gray;
+    /* text-shadow:  gray; */
+
+}
+
+span{
+    color: #E95A08;
+}
+
+.banner-text{
+    width: 570px;
+}
+
+.banner-img{
+    width: 570px;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+
+
+@media screen  and (max-width: 480px) {
+
+    .header-content, .banner-content{
+        width: 360px;
+    }
+
+    .logo-img{
+        width: 63px;
+    }
+
+    .active{
+        width: 22px;
+        height: 15px;
+        font-size: 16px;
+    }
+
+    .banner-content{
+        width: 100%;
+        flex-direction: column;
+        margin-top: auto;
+        padding-top: 20px;
+    }
+
+    .banner-heading{
+    font-size: 24px;
+    color: #000000;
+}
+
+.banner-description{
+    font-size: 14px;
+    color: gray;
+    /* text-shadow:  gray; */
+}
+
+.banner-text{
+    width: 360px;
+    margin: 20px auto;
+}
+
+    .banner-img{
+        width: 100%;
+    }
+
+   
+
+    .mobile-nav{
+        display: inline-block;
+    }
+
+    .desktop-nav{
+        display: none;
+    }
+    
+}
