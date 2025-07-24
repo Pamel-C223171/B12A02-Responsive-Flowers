@@ -35,7 +35,7 @@ body{
 .inter-semi-bold {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -49,7 +49,7 @@ body{
 .inter-medium {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -121,7 +121,105 @@ span{
     display: none;
 }
 
+/* plants section */
 
+.plants-container{
+    width: 1140px;
+    margin: auto;
+}
+
+.plants-content{
+    width: 1140px;
+    display: grid;
+    grid-template-columns: auto;
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.plants-heading{
+    font-size: 50px;
+    
+}
+
+.plants-description{
+    font-size: 22px;
+    color: #8987A1;
+}
+
+.card-div{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card{
+    text-align: center;
+    width: 270px;
+    height: 484px;
+    display: grid;
+    /* row-gap: 10px; */
+}
+
+.card-img{
+    width: 270px;
+}
+
+.card-title{
+   font-size: 22px;
+}
+
+.card-prize{
+    font-size: 22px;
+}
+
+.card-btn{
+    background-color: #E95A08;
+    font-size: 16px;
+    color: #F5F8FF;
+}
+
+.lover-container{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.lover-img{
+    width: 540px;
+}
+
+.lover-content{
+    width: 540px;
+}
+
+.lover-title{
+    font-size: 50px;
+}
+
+.lover-list{
+
+}
+
+.lover-item{
+    font-size: 22px;
+}
+
+.img1{
+    margin-left: 350px;
+    margin-bottom: -100px;
+    /* z-index: 2; */
+}
+
+.img2{
+    /* z-index: 1; */
+    /* margin-top: 100px; */
+}
 
 @media screen  and (max-width: 480px) {
 
@@ -175,5 +273,55 @@ span{
     .desktop-nav{
         display: none;
     }
+
+    /* card section */
+
+    .plants-container{
+    width: 393px;
+    margin: auto;
+}
+
+.plants-content{
+    width: 336px;
+    margin: auto;
+    /* padding: 10px; */
+}
+
+br{
+    display: none;
+}
+
+.plants-heading{
+    font-size: 24px;
+}
+
+.plants-description{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card{
+    width: 171px;
+    height: 340px;
+   
+}
+
+.card-title, .card-prize, .card-btn{
+   font-size: 16px;
+}
+
+
+
     
 }
+
+/* .img1{
+    margin-top: -350px;
+} */
