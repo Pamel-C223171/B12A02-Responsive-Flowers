@@ -226,10 +226,14 @@ ul li {
 /* Deal section */
 
 .deal-section{
-    
-    
+    /* width: 1140px; */
+    /* margin: auto; */
+    margin-top: 50px;
 }
 
+.break-line{
+    display: none;
+}
 
 
 
@@ -357,6 +361,27 @@ ul li {
     margin-top: 16px;
 }
 
+/* Deal section */
+
+.deal-section{
+    width: 393px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.deal-content{
+    /* width: 336px; */
+}
+
+.deal-title{
+    font-size: 24px;
+}
+
+.deal-subtitle{
+    font-size: 14px;
+    width: 336px;
+    margin: auto;
+}
 
     
 }
