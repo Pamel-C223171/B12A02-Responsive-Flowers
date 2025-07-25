@@ -190,6 +190,17 @@ span {
     position: absolute;
     top: -20%;
     right: -20%;
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+     100% {
+        transform: rotate(360deg);
+    }
 }
 
 .lover-title {
